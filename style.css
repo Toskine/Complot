@@ -61,7 +61,8 @@ html, body {
 .page:nth-child(4) .right img,
 .page:nth-child(5) .right img,
 .page:nth-child(6) .right img,
-.page:nth-child(7) .right img
+.page:nth-child(7) .right img,
+.page:nth-child(8) .right img
 { 
   width:100%;
   height:auto;
@@ -73,7 +74,8 @@ html, body {
 .page:nth-child(4) .left img,
 .page:nth-child(5) .left img,
 .page:nth-child(6) .left img,
-.page:nth-child(7) .left img
+.page:nth-child(7) .left img,
+.page:nth-child(8) .left img
 {
   width:100%;
   height:auto;
@@ -179,6 +181,13 @@ html, body {
   transform: translateX(100%);
 }
 
+.page:nth-child(15) .left {
+  transform: translateX(-100%);
+}
+.page:nth-child(15) .right {
+  transform: translateX(100%);
+}
+
 .half {
   position: absolute;
   top: 0;
@@ -276,9 +285,9 @@ html, body {
 .text3 {
   position: absolute;
   z-index: 500;
-  bottom: -15%;
-  left: 14%;
-  transform: translateX(-1%) translateY(-90%);
+  bottom: -22%;
+  left: 12%;
+  transform: translateX(-6%) translateY(-90%);
   font-size: 22px;
   color: black;
   font-family: 'Tajawal', sans-serif;
@@ -310,13 +319,26 @@ html, body {
 .text6 {
   position: absolute;
   z-index: 500;
-  bottom: -20%;
-  left: 15%;
+  bottom: 2%;
+  left: 16%;
   transform: translateX(-10%) translateY(-30%);
   font-size: 20px;
   color: black;
   font-family: 'Tajawal', sans-serif;
 }
+
+
+.text7 {
+  position: absolute;
+  z-index: 500;
+  bottom: 17%;
+  left: 16%;
+  transform: translateX(-10%) translateY(-30%);
+  font-size: 20px;
+  color: black;
+  font-family: 'Tajawal', sans-serif;
+}
+
 
 img{
   width: fit-content;
